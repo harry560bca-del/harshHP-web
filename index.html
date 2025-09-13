@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshdeep Patil - Ultimate BCA Projects</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🚀 Harshdeep Patil | BCA Projects Hub</h1>
+    <p>Login to explore 2000+ words of content, tools, images, videos & projects</p>
+  </header>
+
+  <main id="app">
+    <div class="auth-container">
+      <h2>Create Account / Login</h2>
+      <input type="text" id="username" placeholder="Username" />
+      <input type="password" id="password" placeholder="Password" />
+      <button onclick="signup()">Signup</button>
+      <button onclick="login()">Login</button>
+    </div>
+
+    <section id="content" class="hidden">
+      <h2>🔥 BCA Knowledge + Live Projects</h2>
+      <p>Welcome! Now you can access tools, codes, and projects below.</p>
+
+      <div class="project">
+        <h3>Calculator (JavaScript)</h3>
+        <iframe src="projects/calculator.html" class="project-frame"></iframe>
+        <pre><code>function add(a,b) { return a+b; } // Example code</code></pre>
+      </div>
+
+      <div class="gallery">
+        <h3>Gallery</h3>
+        <img src="assets/sample1.jpg" alt="Sample 1"/>
+        <video controls src="assets/sample-video.mp4"></video>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Harshdeep Patil | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
